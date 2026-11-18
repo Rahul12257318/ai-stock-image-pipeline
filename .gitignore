@@ -1,0 +1,26 @@
+# Secrets - never commit these
+.env
+*.pem
+*.key
+runpod_lumen
+runpod_lumen.pub
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Generated images and upload CSVs
+output/
+
+# Old / experimental files
+workflow_api.json
+sdxl_refiner_prompt_example*.json
+prompts.txt
+
+# OS / editor clutter
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
